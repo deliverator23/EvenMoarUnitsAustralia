@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_WOOMERA_NAME" Language="en_US">
+			<Text>Woomera Warrior</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WOOMERA_DESCRIPTION" Language="en_US">
+			<Text>Woomera Warrior Desc</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SASR_NAME" Language="en_US">
+			<Text>S.A.S.R.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SASR_DESCRIPTION" Language="en_US">
+			<Text>S.A.S.R. Desc</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
