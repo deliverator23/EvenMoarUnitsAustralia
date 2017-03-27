@@ -13,5 +13,11 @@
 		<Replace Tag="LOC_UNIT_SASR_DESCRIPTION" Language="en_US">
 			<Text>S.A.S.R. Desc</Text>
 		</Replace>
+		<Replace Tag="LOC_PROMOTION_HUNTER_NAME" Language="en_US">
+			<Text>Hunter</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HUNTER_DESCRIPTION" Language="en_US">
+			<Text>Hunter</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

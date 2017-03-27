@@ -7,6 +7,7 @@
 		<Row Type="TRAIT_CIVILIZATION_UNIT_SASR" Kind="KIND_TRAIT"/>
 		<Row Type="ABILITY_WOOMERA" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_SASR" Kind="KIND_ABILITY"/>
+		<Row Type="PROMOTION_HUNTER" Kind="KIND_PROMOTION"/>
 	</Types>
 	<Units>
 		<Row UnitType="UNIT_WOOMERA" BaseMoves="2" Cost="35" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
@@ -61,33 +62,50 @@
 		<Row UnitAbilityType="ABILITY_WOOMERA" Name="LOC_ABILITY_WOOMERA" Description="LOC_ABILITY_WOOMERA_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_SASR" Name="LOC_ABILITY_SASR" Description="LOC_ABILITY_SASR_DESCRIPTION"/>
 	</UnitAbilities>
+	<UnitPromotions>
+		<Row UnitPromotionType="PROMOTION_HUNTER" Name="LOC_PROMOTION_HUNTER_NAME"
+			 Description="LOC_PROMOTION_HUNTER_DESCRIPTION" Level="0" Specialization="" Column="4"
+			 PromotionClass="PROMOTION_CLASS_RANGED"/>
+	</UnitPromotions>
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_HUNTER</UnitPromotionType>
+			<ModifierId>PLUS_5_COMBAT_STRENGTH</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
 	<UnitAbilityModifiers>
 		<!--<Row>-->
 			<!--<UnitAbilityType>ABILITY_JAGUAR</UnitAbilityType>-->
 			<!--<ModifierId>UNIT_STRONG_WHEN_ATTACKING</ModifierId>-->
 		<!--</Row>-->
-		<!--<Row>-->
-			<!--<UnitAbilityType>ABILITY_JAGUAR</UnitAbilityType>-->
-			<!--<ModifierId>UNIT_WEAK_WHEN_DEFENDING</ModifierId>-->
-		<!--</Row>-->
+		<Row>
+			<UnitAbilityType>ABILITY_WOOMERA</UnitAbilityType>
+			<ModifierId>FREE_HUNTER_PROMOTION</ModifierId>
+		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>
-		<!--<Row>-->
-			<!--<ModifierId>JAGUAR_IGNORE_JUNGLE_MOVEMENT_PENALTY</ModifierId>-->
-			<!--<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>-->
-		<!--</Row>-->
+		<Row>
+			<ModifierId>FREE_HUNTER_PROMOTION</ModifierId>
+			<ModifierType>MODIFIER_UNITS_GRANT_PROMOTION</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_COMBAT_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
-		<!--<Row>-->
-			<!--<ModifierId>JAGUAR_IGNORE_JUNGLE_MOVEMENT_PENALTY</ModifierId>-->
-			<!--<Name>Ignore</Name>-->
-			<!--<Value>true</Value>-->
-		<!--</Row>-->
-		<!--<Row>-->
-			<!--<ModifierId>JAGUAR_IGNORE_JUNGLE_MOVEMENT_PENALTY</ModifierId>-->
-			<!--<Name>Type</Name>-->
-			<!--<Value>JUNGLE</Value>-->
-		<!--</Row>-->
+		<Row>
+			<ModifierId>FREE_HUNTER_PROMOTION</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_HUNTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_COMBAT_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
 	</ModifierArguments>
 	<RequirementSets>
 		<!--<Row>-->
