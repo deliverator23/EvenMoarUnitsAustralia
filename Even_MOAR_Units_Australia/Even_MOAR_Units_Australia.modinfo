@@ -3,7 +3,16 @@
     <Properties>
         <Name>Even Moar Units! Australia</Name>
         <Teaser>Adds Woomera Warrior and S.A.S.R. units to Australia</Teaser>
-        <Description>Adds Woomera Warrior and S.A.S.R. units to Australia</Description>
+        <Description>Adds Woomera Warrior and S.A.S.R. units to Australia. Requires the Australia DLC.
+
+Woomera Warrior
+Australian Slinger replacement that has Range 2 and receives free Hunter promotion (+6 [ICON_Strength] Combat Strength when attacking non-District tiles).
+
+S.A.S.R.
+Strong, mobile Australian Mechanized Infantry replacement that ignores Zone of Control and has +5 Combat Strength when fighting on Desert or Plains.
+
+Credits
+Icon Art by janboruta</Description>
         <Authors>Deliverator</Authors>
     </Properties>
 	<Dependencies>
