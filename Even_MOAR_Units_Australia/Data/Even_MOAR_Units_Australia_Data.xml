@@ -106,7 +106,7 @@
 		</Row>
 	</Modifiers>
 	<ModifierStrings>
-		<Row ModifierId="PLUS_6_COMBAT_STRENGTH" Context="Preview" Text="PLUS_6_COMBAT_STRENGTH_DESC"/>
+		<Row ModifierId="PLUS_6_COMBAT_STRENGTH_NON_DISTRICT" Context="Preview" Text="PLUS_6_COMBAT_STRENGTH_NON_DISTRICT_DESC"/>
 		<Row ModifierId="PLUS_5_DESERT_PLAINS_COMBAT_BONUS" Context="Preview" Text="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC"/>
 	</ModifierStrings>
 	<ModifierArguments>
@@ -124,7 +124,7 @@
 	<RequirementSets>
 		<Row>
 			<RequirementSetId>NON_DISTRICT_REQUIREMENT_SET</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
@@ -132,16 +132,16 @@
 			<RequirementSetId>NON_DISTRICT_REQUIREMENT_SET</RequirementSetId>
 			<RequirementId>PLOT_IS_NOT_DEFENDED_DISTRICT_REQUIREMENTS</RequirementId>
 		</Row>
+		<Row>
+			<RequirementSetId>NON_DISTRICT_REQUIREMENT_SET</RequirementSetId>
+			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
 			<RequirementId>PLOT_IS_NOT_DEFENDED_DISTRICT_REQUIREMENTS</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_DISTRICT_IS_DEFENDED</RequirementType>
 			<Inverse>true</Inverse>
-		</Row>
-		<Row>
-			<RequirementSetId>PLOT_IS_NOT_DEFENDED_DISTRICT_REQUIREMENTS</RequirementSetId>
-			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
 		</Row>
 	</Requirements>
 </GameData>
