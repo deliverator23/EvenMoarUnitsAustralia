@@ -13,13 +13,13 @@
 		<Row UnitType="UNIT_WOOMERA" BaseMoves="2" Cost="35" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
 			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT"
 			 Name="LOC_UNIT_WOOMERA_NAME" Description="LOC_UNIT_WOOMERA_DESCRIPTION" PurchaseYield="YIELD_GOLD"
-			 PromotionClass="PROMOTION_CLASS_RANGED" Combat="5" MandatoryObsoleteTech="TECH_MACHINERY" RangedCombat="15" Range="1"
+			 PromotionClass="PROMOTION_CLASS_RANGED" Combat="5" MandatoryObsoleteTech="TECH_MACHINERY" RangedCombat="15" Range="2"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_WOOMERA"/>
 
-		<Row UnitType="UNIT_SASR" BaseMoves="3" Cost="650" AdvisorType="ADVISOR_CONQUEST"
+		<Row UnitType="UNIT_SASR" BaseMoves="4" Cost="650" AdvisorType="ADVISOR_CONQUEST"
 			 BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT"
 			 Name="LOC_UNIT_SASR_NAME" Description="LOC_UNIT_SASR_DESCRIPTION"
-			 PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="8" Combat="85"
+			 PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="8" Combat="91"
 			 PrereqTech="TECH_SATELLITES" TraitType="TRAIT_CIVILIZATION_UNIT_SASR"/>
 	</Units>
 	<CivilizationTraits>
@@ -70,14 +70,18 @@
 	<UnitPromotionModifiers>
 		<Row>
 			<UnitPromotionType>PROMOTION_HUNTER</UnitPromotionType>
-			<ModifierId>PLUS_5_COMBAT_STRENGTH</ModifierId>
+			<ModifierId>PLUS_6_COMBAT_STRENGTH_NON_DISTRICT</ModifierId>
 		</Row>
 	</UnitPromotionModifiers>
 	<UnitAbilityModifiers>
-		<!--<Row>-->
-			<!--<UnitAbilityType>ABILITY_JAGUAR</UnitAbilityType>-->
-			<!--<ModifierId>UNIT_STRONG_WHEN_ATTACKING</ModifierId>-->
-		<!--</Row>-->
+		<Row>
+			<UnitAbilityType>ABILITY_SASR</UnitAbilityType>
+			<ModifierId>IGNOREZOC_IGNORE_ZOC</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SASR</UnitAbilityType>
+			<ModifierId>PLUS_5_DESERT_PLAINS_COMBAT_BONUS</ModifierId>
+		</Row>
 		<Row>
 			<UnitAbilityType>ABILITY_WOOMERA</UnitAbilityType>
 			<ModifierId>FREE_HUNTER_PROMOTION</ModifierId>
@@ -91,10 +95,20 @@
 			<RunOnce>true</RunOnce>
 		</Row>
 		<Row>
-			<ModifierId>PLUS_5_COMBAT_STRENGTH</ModifierId>
+			<ModifierId>PLUS_6_COMBAT_STRENGTH_NON_DISTRICT</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>NON_DISTRICT_REQUIREMENT_SET</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_DESERT_PLAINS_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_DESERT_OR_PLAINS_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
+	<ModifierStrings>
+		<Row ModifierId="PLUS_6_COMBAT_STRENGTH" Context="Preview" Text="PLUS_6_COMBAT_STRENGTH_DESC"/>
+		<Row ModifierId="PLUS_5_DESERT_PLAINS_COMBAT_BONUS" Context="Preview" Text="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC"/>
+	</ModifierStrings>
 	<ModifierArguments>
 		<Row>
 			<ModifierId>FREE_HUNTER_PROMOTION</ModifierId>
@@ -102,34 +116,32 @@
 			<Value>PROMOTION_HUNTER</Value>
 		</Row>
 		<Row>
-			<ModifierId>PLUS_5_COMBAT_STRENGTH</ModifierId>
+			<ModifierId>PLUS_6_COMBAT_STRENGTH_NON_DISTRICT</ModifierId>
 			<Name>Amount</Name>
-			<Value>5</Value>
+			<Value>6</Value>
 		</Row>
 	</ModifierArguments>
 	<RequirementSets>
-		<!--<Row>-->
-			<!--<RequirementSetId>ADJACENT_WARRIOR_PRIEST_REQUIREMENTS</RequirementSetId>-->
-			<!--<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>-->
-		<!--</Row>-->
+		<Row>
+			<RequirementSetId>NON_DISTRICT_REQUIREMENT_SET</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
-		<!--<Row>-->
-			<!--<RequirementSetId>ADJACENT_WARRIOR_PRIEST_REQUIREMENTS</RequirementSetId>-->
-			<!--<RequirementId>ADJACENT_FRIENDLY_WARRIOR_PRIEST_REQUIREMENT</RequirementId>-->
-		<!--</Row>-->
+		<Row>
+			<RequirementSetId>NON_DISTRICT_REQUIREMENT_SET</RequirementSetId>
+			<RequirementId>PLOT_IS_NOT_DEFENDED_DISTRICT_REQUIREMENTS</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
-		<!--<Row>-->
-			<!--<RequirementId>ADJACENT_FRIENDLY_WARRIOR_PRIEST_REQUIREMENT</RequirementId>-->
-			<!--<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>-->
-		<!--</Row>-->
+		<Row>
+			<RequirementId>PLOT_IS_NOT_DEFENDED_DISTRICT_REQUIREMENTS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_DISTRICT_IS_DEFENDED</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_NOT_DEFENDED_DISTRICT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
+		</Row>
 	</Requirements>
-	<RequirementArguments>
-		<!--<Row>-->
-			<!--<RequirementId>ADJACENT_FRIENDLY_WARRIOR_PRIEST_REQUIREMENT</RequirementId>-->
-			<!--<Name>Tag</Name>-->
-			<!--<Value>CLASS_WARRIOR_PRIEST</Value>-->
-		<!--</Row>-->
-	</RequirementArguments>
 </GameData>
