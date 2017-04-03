@@ -20,6 +20,14 @@ Icon Art by janboruta</Description>
 		<Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="MOARUnits"/>
 	</Dependencies>
     <FrontEndActions>
+		<ImportFiles id="MOAR_Australia_FileImport">
+			<File>Art/Icons/MOARUnitsFlagsAUSTRALIA_22.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsAUSTRALIA_32.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsAUSTRALIA_38.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsAUSTRALIA_50.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsAUSTRALIA_80.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsAUSTRALIA_256.dds</File>
+		</ImportFiles>
         <UpdateDatabase id="MOAR_Australia_SETTING">
             <File>Config/MOAR_Units_Australia_Config.xml</File>
         </UpdateDatabase>
@@ -28,9 +36,9 @@ Icon Art by janboruta</Description>
 			<File>Text/ru_RU/MOAR_Units_Australia_Text.xml</File>
 			<File>Text/zh_Hans_CN/MOAR_Units_Australia_Text.xml</File>
         </UpdateText>
-        <UpdateIcons id="MOAR_Australia_ICON_SETTING">
-            <File>Config/MOAR_Units_Australia_Icons_Config.xml</File>
-        </UpdateIcons>
+		<UpdateIcons id="MOAR_Poland_Icons">
+			<File>Data/Even_MOAR_Units_Australia_Icons.xml</File>
+		</UpdateIcons>
     </FrontEndActions>
     <InGameActions>
         <ImportFiles id="MOAR_Australia_FileImport">
