@@ -8,7 +8,7 @@
 			<Text>取代投石兵的澳大利亚特色远程单位,射程为2且收到猎人免费提升当进攻非城区时+6战斗力[ICON_Strength]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SASR_NAME" Language="zh_Hans_CN">
-			<Text>特别空勤团</Text>
+			<Text>特别空勤员</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SASR_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>取代机械化步兵的澳大利亚特色信息时代近战单位,忽略控制区域且当在沙漠或平原时+5战斗力[ICON_Strength]。</Text>
