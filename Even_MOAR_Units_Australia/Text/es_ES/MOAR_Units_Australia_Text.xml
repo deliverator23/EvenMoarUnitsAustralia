@@ -2,7 +2,7 @@
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_UNIT_WOOMERA_NAME" Language="es_ES">
-			<Text>Guerrero del Woomera</Text>
+			<Text>Woomera</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WOOMERA_DESCRIPTION" Language="es_ES">
 			<Text>Unidad exclusiva de Australia que reemplaza al hondero con un rango de 2 y que recibe gratis un ascenso de Cazador (+6 [ICON_Strength] al atacar casillas que no son distritos).</Text>
