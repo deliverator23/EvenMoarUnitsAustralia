@@ -33,6 +33,7 @@ Icon Art by janboruta</Description>
         </UpdateDatabase>
         <UpdateText id="MOAR_Australia_SETTING_TEXT">
 			<File>Text/en_US/MOAR_Units_Australia_Text.xml</File>
+			<File>Text/es_ES/MOAR_Units_Australia_Text.xml</File>
 			<File>Text/de_DE/MOAR_Units_Australia_Text.xml</File>
 			<File>Text/ru_RU/MOAR_Units_Australia_Text.xml</File>
 			<File>Text/zh_Hans_CN/MOAR_Units_Australia_Text.xml</File>
@@ -59,6 +60,8 @@ Icon Art by janboruta</Description>
 			<Include mod_id="E3F53C61-371C-440B-96CE-077D318B36C0" action_id="AustraliaText" required="1" />
 			<File>Text/en_US/MOAR_Units_Australia_Text.xml</File>
 			<File>Text/en_US/MOAR_Units_Australia_Pedia_Text.xml</File>
+			<File>Text/es_ES/MOAR_Units_Australia_Text.xml</File>
+			<File>Text/es_ES/MOAR_Units_Australia_Pedia_Text.xml</File>
 			<File>Text/de_DE/MOAR_Units_Australia_Text.xml</File>
 			<File>Text/de_DE/MOAR_Units_Australia_Pedia_Text.xml</File>
 			<File>Text/ru_RU/MOAR_Units_Australia_Text.xml</File>
@@ -87,6 +90,8 @@ Icon Art by janboruta</Description>
 		<!-- Text -->
 		<File>Text/en_US/MOAR_Units_Australia_Text.xml</File>
         <File>Text/en_US/MOAR_Units_Australia_Pedia_Text.xml</File>
+		<File>Text/es_ES/MOAR_Units_Australia_Text.xml</File>
+		<File>Text/es_ES/MOAR_Units_Australia_Pedia_Text.xml</File>
 		<File>Text/de_DE/MOAR_Units_Australia_Text.xml</File>
 		<File>Text/de_DE/MOAR_Units_Australia_Pedia_Text.xml</File>
 		<File>Text/ru_RU/MOAR_Units_Australia_Text.xml</File>
