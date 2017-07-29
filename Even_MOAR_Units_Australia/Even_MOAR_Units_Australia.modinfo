@@ -38,7 +38,7 @@ Icon Art by janboruta</Description>
 			<File>Text/ru_RU/MOAR_Units_Australia_Text.xml</File>
 			<File>Text/zh_Hans_CN/MOAR_Units_Australia_Text.xml</File>
         </UpdateText>
-		<UpdateIcons id="MOAR_Poland_Icons">
+		<UpdateIcons id="MOAR_Australia_Icons">
 			<File>Data/Even_MOAR_Units_Australia_Icons.xml</File>
 		</UpdateIcons>
     </FrontEndActions>
@@ -51,13 +51,13 @@ Icon Art by janboruta</Description>
             <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_80.dds</File>
             <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_256.dds</File>
         </ImportFiles>
-        <UpdateDatabase id="MOAR_Poland_UpdateDatabase">
-			<Include mod_id="E3F53C61-371C-440B-96CE-077D318B36C0" action_id="AustraliaGameplay" required="1" />
+        <UpdateDatabase id="MOAR_Australia_UpdateDatabase">
+			<Include mod_id="8342b98d-80c7-4002-87bb-419646bd9b54" action_id="MOAR_UpdateDatabase" />
+			<Include mod_id="E3F53C61-371C-440B-96CE-077D318B36C0" action_id="AustraliaGameplay"/>
             <File>Data/Even_MOAR_Units_Australia_Data.xml</File>
             <File>Data/Even_MOAR_Units_Australia_Data.sql</File>
         </UpdateDatabase>
-        <UpdateText id="MOAR_Poland_LocalizedText">
-			<Include mod_id="E3F53C61-371C-440B-96CE-077D318B36C0" action_id="AustraliaText" required="1" />
+        <UpdateText id="MOAR_Australia_LocalizedText">
 			<File>Text/en_US/MOAR_Units_Australia_Text.xml</File>
 			<File>Text/en_US/MOAR_Units_Australia_Pedia_Text.xml</File>
 			<File>Text/es_ES/MOAR_Units_Australia_Text.xml</File>
@@ -69,13 +69,10 @@ Icon Art by janboruta</Description>
 			<File>Text/zh_Hans_CN/MOAR_Units_Australia_Text.xml</File>
 			<File>Text/zh_Hans_CN/MOAR_Units_Australia_Pedia_Text.xml</File>
         </UpdateText>
-        <UpdateIcons id="MOAR_Poland_Icons">
-			<Include mod_id="E3F53C61-371C-440B-96CE-077D318B36C0" action_id="AustraliaIcons" required="1" />
+        <UpdateIcons id="MOAR_Australia_Icons">
             <File>Data/Even_MOAR_Units_Australia_Icons.xml</File>
         </UpdateIcons>
-        <UpdateArt id="MOAR_Poland_ModArt">
-			<Include mod_id="E3F53C61-371C-440B-96CE-077D318B36C0" action_id="AustraliaArt" required="1" />
-			<Include mod_id="E3F53C61-371C-440B-96CE-077D318B36C0" action_id="AustraliaAudio" required="1" />
+        <UpdateArt id="MOAR_Australia_ModArt">
             <File>Even_MOAR_Units_Australia.dep</File>
         </UpdateArt>
     </InGameActions>
