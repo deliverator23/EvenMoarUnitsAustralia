@@ -59,6 +59,9 @@ Icon Art by janboruta</Description>
             <File>Data/Even_MOAR_Units_Australia_Data.sql</File>
         </UpdateDatabase>
         <UpdateText id="MOAR_Australia_LocalizedText">
+			<Properties>
+				<LoadOrder>10</LoadOrder>
+			</Properties>
 			<File>Text/en_US/MOAR_Units_Australia_Text.xml</File>
 			<File>Text/en_US/MOAR_Units_Australia_Pedia_Text.xml</File>
 			<File>Text/es_ES/MOAR_Units_Australia_Text.xml</File>
