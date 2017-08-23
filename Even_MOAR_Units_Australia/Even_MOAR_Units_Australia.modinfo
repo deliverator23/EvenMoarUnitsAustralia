@@ -37,6 +37,7 @@ Icon Art by janboruta</Description>
 			<File>Text/de_DE/MOAR_Units_Australia_Text.xml</File>
 			<File>Text/ru_RU/MOAR_Units_Australia_Text.xml</File>
 			<File>Text/zh_Hans_CN/MOAR_Units_Australia_Text.xml</File>
+			<File>Text/it_IT/MOAR_Units_Australia_Text.xml</File>
         </UpdateText>
 		<UpdateIcons id="MOAR_Australia_Icons">
 			<File>Data/Even_MOAR_Units_Australia_Icons.xml</File>
@@ -72,6 +73,7 @@ Icon Art by janboruta</Description>
 			<File>Text/ru_RU/MOAR_Units_Australia_Pedia_Text.xml</File>
 			<File>Text/zh_Hans_CN/MOAR_Units_Australia_Text.xml</File>
 			<File>Text/zh_Hans_CN/MOAR_Units_Australia_Pedia_Text.xml</File>
+			<File>Text/it_IT/MOAR_Units_Australia_Text.xml</File>
         </UpdateText>
         <UpdateIcons id="MOAR_Australia_Icons">
             <File>Data/Even_MOAR_Units_Australia_Icons.xml</File>
@@ -99,6 +101,7 @@ Icon Art by janboruta</Description>
 		<File>Text/ru_RU/MOAR_Units_Australia_Pedia_Text.xml</File>
 		<File>Text/zh_Hans_CN/MOAR_Units_Australia_Text.xml</File>
 		<File>Text/zh_Hans_CN/MOAR_Units_Australia_Pedia_Text.xml</File>
+		<File>Text/it_IT/MOAR_Units_Australia_Text.xml</File>
 
         <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_22.dds</File>
         <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_32.dds</File>
