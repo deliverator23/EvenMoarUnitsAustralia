@@ -7,13 +7,12 @@
 		<Row Type="TRAIT_CIVILIZATION_UNIT_SASR" Kind="KIND_TRAIT"/>
 		<Row Type="ABILITY_WOOMERA" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_SASR" Kind="KIND_ABILITY"/>
-		<Row Type="PROMOTION_HUNTER" Kind="KIND_PROMOTION"/>
 	</Types>
 	<Units>
 		<Row UnitType="UNIT_WOOMERA" BaseMoves="2" Cost="35" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
 			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT"
 			 Name="LOC_UNIT_WOOMERA_NAME" Description="LOC_UNIT_WOOMERA_DESCRIPTION" PurchaseYield="YIELD_GOLD"
-			 PromotionClass="PROMOTION_CLASS_RANGED" Combat="5" MandatoryObsoleteTech="TECH_MACHINERY" RangedCombat="15" Range="2"
+			 PromotionClass="PROMOTION_CLASS_HUNTER" Combat="5" MandatoryObsoleteTech="TECH_MACHINERY" RangedCombat="15" Range="2"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_WOOMERA"/>
 
 		<Row UnitType="UNIT_SASR" BaseMoves="4" Cost="650" AdvisorType="ADVISOR_CONQUEST"
@@ -62,14 +61,9 @@
 		<Row UnitAbilityType="ABILITY_WOOMERA" Name="LOC_ABILITY_WOOMERA" Description="LOC_ABILITY_WOOMERA_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_SASR" Name="LOC_ABILITY_SASR" Description="LOC_ABILITY_SASR_DESCRIPTION"/>
 	</UnitAbilities>
-	<UnitPromotions>
-		<Row UnitPromotionType="PROMOTION_HUNTER" Name="LOC_PROMOTION_HUNTER_NAME"
-			 Description="LOC_PROMOTION_HUNTER_DESCRIPTION" Level="0" Specialization="" Column="4"
-			 PromotionClass="PROMOTION_CLASS_RANGED"/>
-	</UnitPromotions>
 	<UnitPromotionModifiers>
 		<Row>
-			<UnitPromotionType>PROMOTION_HUNTER</UnitPromotionType>
+			<UnitPromotionType>PROMOTION_VOLLEY_HUNTER</UnitPromotionType>
 			<ModifierId>PLUS_6_COMBAT_STRENGTH_NON_DISTRICT</ModifierId>
 		</Row>
 	</UnitPromotionModifiers>
@@ -113,7 +107,7 @@
 		<Row>
 			<ModifierId>FREE_HUNTER_PROMOTION</ModifierId>
 			<Name>PromotionType</Name>
-			<Value>PROMOTION_HUNTER</Value>
+			<Value>PROMOTION_VOLLEY_HUNTER</Value>
 		</Row>
 		<Row>
 			<ModifierId>PLUS_6_COMBAT_STRENGTH_NON_DISTRICT</ModifierId>

@@ -56,6 +56,7 @@ Icon Art by janboruta</Description>
 			<Properties>
 				<LoadOrder>10</LoadOrder>
 			</Properties>
+			<File>Data/Even_MOAR_Units_Australia_Data.sql</File>
             <File>Data/Even_MOAR_Units_Australia_Data.xml</File>
             <File>Data/Even_MOAR_Units_Australia_Data.sql</File>
         </UpdateDatabase>
@@ -87,6 +88,7 @@ Icon Art by janboruta</Description>
         <File>Even_MOAR_Units_Australia.dep</File>
         <File>Config/MOAR_Units_Australia_Config.xml</File>
         <File>Config/MOAR_Units_Australia_Icons_Config.xml</File>
+		<File>Data/Even_MOAR_Units_Australia_Data.sql</File>
         <File>Data/Even_MOAR_Units_Australia_Data.xml</File>
         <File>Data/Even_MOAR_Units_Australia_Icons.xml</File>
 
