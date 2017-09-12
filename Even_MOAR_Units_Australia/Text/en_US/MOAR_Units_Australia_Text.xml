@@ -17,10 +17,10 @@
 			<Text>Hunter</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_HUNTER_DESCRIPTION" Language="en_US">
-			<Text>+6 [ICON_Strength] Combat Strength when attacking non-District tiles.</Text>
+			<Text>+5 [ICON_Ranged] Ranged Strength vs. land units and +5 [ICON_Strength] Combat Strength when attacking non-District tiles.</Text>
 		</Replace>
-		<Replace Tag="PLUS_6_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="en_US">
-			<Text>+6 [ICON_Strength] Combat Strength when attacking non-District tiles.</Text>
+		<Replace Tag="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when attacking non-District tiles.</Text>
 		</Replace>
 		<Replace Tag="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength in Desert or Plains.</Text>
