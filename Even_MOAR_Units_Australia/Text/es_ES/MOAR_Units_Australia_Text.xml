@@ -17,10 +17,10 @@
 			<Text>Cazador</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_HUNTER_DESCRIPTION" Language="es_ES">
-			<Text>+6 [ICON_Strength] al atacar casillas que no son distritos.</Text>
+			<Text>+5 a la Fuerza a distancia [ICON_Ranged] contra unidades terrestres y +5 [ICON_Strength] al atacar casillas que no son distritos.</Text>
 		</Replace>
-		<Replace Tag="PLUS_6_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="es_ES">
-			<Text>+6 [ICON_Strength] al atacar casillas que no son distritos.</Text>
+		<Replace Tag="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="es_ES">
+			<Text>+5 [ICON_Strength] al atacar casillas que no son distritos.</Text>
 		</Replace>
 		<Replace Tag="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC" Language="es_ES">
 			<Text>+5 [ICON_Strength] al luchar en desierto o llanura.</Text>

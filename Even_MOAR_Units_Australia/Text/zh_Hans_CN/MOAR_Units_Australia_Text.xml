@@ -17,9 +17,9 @@
 			<Text>猎人</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_HUNTER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>当进攻非城市区域时+6战斗力[ICON_Strength]</Text>
+			<Text>与陆地单位战斗时+5 [ICON_Ranged] 远程攻击力。 当进攻非城市区域时+6战斗力[ICON_Strength]</Text>
 		</Replace>
-		<Replace Tag="PLUS_6_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="zh_Hans_CN">
+		<Replace Tag="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="zh_Hans_CN">
 			<Text>当进攻非城市区域时+6战斗力[ICON_Strength]</Text>
 		</Replace>
 		<Replace Tag="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
