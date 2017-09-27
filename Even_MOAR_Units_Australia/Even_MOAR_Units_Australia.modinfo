@@ -20,14 +20,6 @@ Icon Art by janboruta</Description>
 		<Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="MOARUnits"/>
 	</Dependencies>
     <FrontEndActions>
-		<ImportFiles id="MOAR_Australia_FileImport">
-			<File>Art/Icons/MOARUnitsFlagsAUSTRALIA_22.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsAUSTRALIA_32.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsAUSTRALIA_38.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsAUSTRALIA_50.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsAUSTRALIA_80.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsAUSTRALIA_256.dds</File>
-		</ImportFiles>
         <UpdateDatabase id="MOAR_Australia_SETTING">
             <File>Config/MOAR_Units_Australia_Config.xml</File>
         </UpdateDatabase>
@@ -44,21 +36,12 @@ Icon Art by janboruta</Description>
 		</UpdateIcons>
     </FrontEndActions>
     <InGameActions>
-        <ImportFiles id="MOAR_Australia_FileImport">
-            <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_22.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_32.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_38.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_50.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_80.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_256.dds</File>
-        </ImportFiles>
         <UpdateDatabase id="MOAR_Australia_UpdateDatabase">
 			<Properties>
 				<LoadOrder>10</LoadOrder>
 			</Properties>
-			<File>Data/Even_MOAR_Units_Australia_Data.sql</File>
-            <File>Data/Even_MOAR_Units_Australia_Data.xml</File>
-            <File>Data/Even_MOAR_Units_Australia_Data.sql</File>
+			<File priority="1">Data/Even_MOAR_Units_Australia_Data.sql</File>
+            <File priority="2">Data/Even_MOAR_Units_Australia_Data.xml</File>
         </UpdateDatabase>
         <UpdateText id="MOAR_Australia_LocalizedText">
 			<Properties>
@@ -104,13 +87,6 @@ Icon Art by janboruta</Description>
 		<File>Text/zh_Hans_CN/MOAR_Units_Australia_Text.xml</File>
 		<File>Text/zh_Hans_CN/MOAR_Units_Australia_Pedia_Text.xml</File>
 		<File>Text/it_IT/MOAR_Units_Australia_Text.xml</File>
-
-        <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_22.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_32.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_38.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_50.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_80.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsAUSTRALIA_256.dds</File>
 
 		<!-- Platforms -->
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathA</File>
