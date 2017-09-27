@@ -64,7 +64,7 @@
 	<UnitPromotionModifiers>
 		<Row>
 			<UnitPromotionType>PROMOTION_VOLLEY_HUNTER</UnitPromotionType>
-			<ModifierId>PLUS_6_COMBAT_STRENGTH_NON_DISTRICT</ModifierId>
+			<ModifierId>PLUS_5_COMBAT_STRENGTH_NON_DISTRICT</ModifierId>
 		</Row>
 	</UnitPromotionModifiers>
 	<UnitAbilityModifiers>
@@ -76,20 +76,10 @@
 			<UnitAbilityType>ABILITY_SASR</UnitAbilityType>
 			<ModifierId>PLUS_5_DESERT_PLAINS_COMBAT_BONUS</ModifierId>
 		</Row>
-		<Row>
-			<UnitAbilityType>ABILITY_WOOMERA</UnitAbilityType>
-			<ModifierId>FREE_HUNTER_PROMOTION</ModifierId>
-		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>
 		<Row>
-			<ModifierId>FREE_HUNTER_PROMOTION</ModifierId>
-			<ModifierType>MODIFIER_UNITS_GRANT_PROMOTION</ModifierType>
-			<Permanent>true</Permanent>
-			<RunOnce>true</RunOnce>
-		</Row>
-		<Row>
-			<ModifierId>PLUS_6_COMBAT_STRENGTH_NON_DISTRICT</ModifierId>
+			<ModifierId>PLUS_5_COMBAT_STRENGTH_NON_DISTRICT</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>NON_DISTRICT_REQUIREMENT_SET</SubjectRequirementSetId>
 		</Row>
@@ -100,19 +90,14 @@
 		</Row>
 	</Modifiers>
 	<ModifierStrings>
-		<Row ModifierId="PLUS_6_COMBAT_STRENGTH_NON_DISTRICT" Context="Preview" Text="PLUS_6_COMBAT_STRENGTH_NON_DISTRICT_DESC"/>
+		<Row ModifierId="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT" Context="Preview" Text="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT_DESC"/>
 		<Row ModifierId="PLUS_5_DESERT_PLAINS_COMBAT_BONUS" Context="Preview" Text="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC"/>
 	</ModifierStrings>
 	<ModifierArguments>
 		<Row>
-			<ModifierId>FREE_HUNTER_PROMOTION</ModifierId>
-			<Name>PromotionType</Name>
-			<Value>PROMOTION_VOLLEY_HUNTER</Value>
-		</Row>
-		<Row>
-			<ModifierId>PLUS_6_COMBAT_STRENGTH_NON_DISTRICT</ModifierId>
+			<ModifierId>PLUS_5_COMBAT_STRENGTH_NON_DISTRICT</ModifierId>
 			<Name>Amount</Name>
-			<Value>6</Value>
+			<Value>5</Value>
 		</Row>
 	</ModifierArguments>
 	<RequirementSets>

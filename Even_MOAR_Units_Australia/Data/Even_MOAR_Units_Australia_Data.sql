@@ -23,3 +23,5 @@ INSERT INTO UnitPromotionModifiers(UnitPromotion, ModifierId)
 SELECT UnitPromotion + '_HUNTER',  ModifierId
 FROM   UnitPromotionModifiers
 WHERE UnitPromotionType IN (SELECT UnitPromotionType FROM UnitPromotions WHERE PromotionClass =  'PROMOTION_CLASS_RANGED');
+
+UPDATE UnitPromotions SET Name = 'LOC_PROMOTION_HUNTER_NAME', Description = 'LOC_PROMOTION_HUNTER_DESCRIPTION' WHERE UnitPromotionType = 'PROMOTION_VOLLEY_HUNTER';

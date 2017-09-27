@@ -17,10 +17,10 @@
 			<Text>Jäger</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_HUNTER_DESCRIPTION" Language="de_DE">
-			<Text>+6 [ICON_Strength] Kampfstärke beim Angriff auf Nicht-Bezirk-Felder.</Text>
+			<Text>+5 [ICON_Ranged] Fernkampfstärke gegen Landeinheiten und +5 [ICON_Strength] Kampfstärke beim Angriff auf Nicht-Bezirk-Felder.</Text>
 		</Replace>
-		<Replace Tag="PLUS_6_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="de_DE">
-			<Text>+6 [ICON_Strength] Kampfstärke beim Angriff auf Nicht-Bezirk-Felder.</Text>
+		<Replace Tag="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="de_DE">
+			<Text>+5 [ICON_Strength] Kampfstärke beim Angriff auf Nicht-Bezirk-Felder.</Text>
 		</Replace>
 		<Replace Tag="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC" Language="de_DE">
 			<Text>+5 [ICON_Strength] Kampfstärke auf Wüsten und Ebenen.</Text>

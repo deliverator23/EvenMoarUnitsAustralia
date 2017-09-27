@@ -17,10 +17,10 @@
 			<Text>Охотник</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_HUNTER_DESCRIPTION" Language="ru_RU">
-			<Text>+6 [ICON_Strength] к боевой мощи при атаке любых клеток, кроме клеток с районами.</Text>
+			<Text>+5 [ICON_Ranged] к дальнобойной мощи против наземных юнитов. +5 [ICON_Strength] к боевой мощи при атаке любых клеток, кроме клеток с районами.</Text>
 		</Replace>
-		<Replace Tag="PLUS_6_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="ru_RU">
-			<Text>+6 [ICON_Strength] к боевой мощи при атаке любых клеток, кроме клеток с районами.</Text>
+		<Replace Tag="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="ru_RU">
+			<Text>+5 [ICON_Strength] к боевой мощи при атаке любых клеток, кроме клеток с районами.</Text>
 		</Replace>
 		<Replace Tag="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC" Language="ru_RU">
 			<Text>+5 [ICON_Strength] к боевой мощи в пустыне или на равнине.</Text>

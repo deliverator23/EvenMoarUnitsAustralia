@@ -17,10 +17,10 @@
 			<Text>Cacciatore</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_HUNTER_DESCRIPTION" Language="it_IT">
-			<Text>+6 alla [ICON_Strength] Forza di combattimento quando attacca caselle prive di distretti.</Text>
+			<Text>+5 alla [ICON_Strength] Forza a distanza contro unità terrestri e +5 alla [ICON_Strength] Forza di combattimento quando attacca caselle prive di distretti.</Text>
 		</Replace>
-		<Replace Tag="PLUS_6_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="it_IT">
-			<Text>+6 alla [ICON_Strength] Forza di combattimento quando attacca caselle prive di distretti.</Text>
+		<Replace Tag="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza di combattimento quando attacca caselle prive di distretti.</Text>
 		</Replace>
 		<Replace Tag="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC" Language="it_IT">
 			<Text>+5 alla [ICON_Strength] Forza di combattimento in caselle di Deserto o Pianura.</Text>
