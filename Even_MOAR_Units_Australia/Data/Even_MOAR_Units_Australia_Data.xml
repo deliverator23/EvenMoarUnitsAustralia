@@ -13,7 +13,7 @@
 			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT"
 			 Name="LOC_UNIT_WOOMERA_NAME" Description="LOC_UNIT_WOOMERA_DESCRIPTION" PurchaseYield="YIELD_GOLD"
 			 PromotionClass="PROMOTION_CLASS_HUNTER" Combat="5" MandatoryObsoleteTech="TECH_MACHINERY" RangedCombat="15" Range="2"
-			 TraitType="TRAIT_CIVILIZATION_UNIT_WOOMERA"/>
+			 TraitType="TRAIT_CIVILIZATION_UNIT_WOOMERA" InitialLevel="2"/>
 
 		<Row UnitType="UNIT_SASR" BaseMoves="4" Cost="650" AdvisorType="ADVISOR_CONQUEST"
 			 BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT"
