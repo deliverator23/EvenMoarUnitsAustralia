@@ -21,6 +21,9 @@ Icon Art by janboruta</Description>
 	</Dependencies>
     <FrontEndActions>
         <UpdateDatabase id="MOAR_Australia_SETTING">
+			<Properties>
+				<LoadOrder>10</LoadOrder>
+			</Properties>
             <File>Config/MOAR_Units_Australia_Config.xml</File>
         </UpdateDatabase>
         <UpdateText id="MOAR_Australia_SETTING_TEXT">
@@ -32,6 +35,9 @@ Icon Art by janboruta</Description>
 			<File>Text/it_IT/MOAR_Units_Australia_Text.xml</File>
         </UpdateText>
 		<UpdateIcons id="MOAR_Australia_Setting_Icons">
+			<Properties>
+				<LoadOrder>10</LoadOrder>
+			</Properties>
 			<File>Data/Even_MOAR_Units_Australia_Icons.xml</File>
 		</UpdateIcons>
     </FrontEndActions>
